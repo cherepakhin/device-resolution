@@ -51,8 +51,8 @@ INFO 785161 --- [nio-8081-exec-6] c.m.mobile.GreetingController            : dev
 The directories __src/main/resources/templates/mobile__, __src/main/resources/templates/tablet__ in __/resources__ is hardcoded, and 
 the framework automatically determines which folder to retrieve the template from.
 
-[src/main/resources/templates/greeting.html](src/main/resources/templates/greeting.html) - for DESKTOP devices__
-[src/main/resources/templates/tablet/greeting.html](src/main/resources/templates/tablet/greeting.html) - for TABLET devices
-[src/main/resources/templates/mobile/greeting.html](src/main/resources/templates/mobile/greeting.html) - for MOBILE devices
+[src/main/resources/templates/greeting.html](src/main/resources/templates/greeting.html) - for __DESKTOP__ devices
+[src/main/resources/templates/tablet/greeting.html](src/main/resources/templates/tablet/greeting.html) - for __TABLET__ devices
+[src/main/resources/templates/mobile/greeting.html](src/main/resources/templates/mobile/greeting.html) - for __MOBILE__ devices
 
 Used __thymeleaf__ template framework.

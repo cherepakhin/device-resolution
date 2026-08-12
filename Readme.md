@@ -55,3 +55,4 @@ __src/main/resources/templates/greeting.html__ - for DESKTOP devices__
 __src/main/resources/templates/tablet/greeting.html__ - for TABLET devices
 __src/main/resources/templates/mobile/greeting.html__ - for MOBILE devices
 
+Used __thymeleaf__ template framework.

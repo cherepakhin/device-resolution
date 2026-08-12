@@ -47,3 +47,11 @@ INFO 785161 --- [nio-8081-exec-6] c.m.mobile.GreetingController            : dev
 INFO 785161 --- [nio-8081-exec-6] c.m.mobile.GreetingController            : device form request: [LiteDevice type=MOBILE]
 INFO 785161 --- [nio-8081-exec-6] c.m.mobile.GreetingController            : device platform: ANDROID
 ````
+
+The directories __src/main/resources/templates/mobile__, __src/main/resources/templates/tablet__ in __/resources__ is hardcoded, and 
+the framework automatically determines which folder to retrieve the template from.
+
+__src/main/resources/templates/greeting.html__ - for DESKTOP devices__
+__src/main/resources/templates/tablet/greeting.html__ - for TABLET devices
+__src/main/resources/templates/mobile/greeting.html__ - for MOBILE devices
+
